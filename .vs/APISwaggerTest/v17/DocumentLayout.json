@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{F918D84E-76FA-4B97-8930-D824E919E1D7}|ApiSwaggerTest\\ApiSwaggerTest.csproj|solutionrelative:apiswaggertest\\getpetidtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F918D84E-76FA-4B97-8930-D824E919E1D7}|ApiSwaggerTest\\ApiSwaggerTest.csproj|d:\\vsproject\\apiswaggertest\\apiswaggertest\\postpettest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F918D84E-76FA-4B97-8930-D824E919E1D7}|ApiSwaggerTest\\ApiSwaggerTest.csproj|solutionrelative:apiswaggertest\\postpettest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F918D84E-76FA-4B97-8930-D824E919E1D7}|ApiSwaggerTest\\ApiSwaggerTest.csproj|d:\\vsproject\\apiswaggertest\\apiswaggertest\\basetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F918D84E-76FA-4B97-8930-D824E919E1D7}|ApiSwaggerTest\\ApiSwaggerTest.csproj|solutionrelative:apiswaggertest\\basetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C6C87D7D-F0EC-4885-BE95-5777467FD6C2}|BaseClient\\BaseClientService.csproj|d:\\vsproject\\apiswaggertest\\baseclient\\basehttpclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6C87D7D-F0EC-4885-BE95-5777467FD6C2}|BaseClient\\BaseClientService.csproj|solutionrelative:baseclient\\basehttpclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F918D84E-76FA-4B97-8930-D824E919E1D7}|ApiSwaggerTest\\ApiSwaggerTest.csproj|d:\\vsproject\\apiswaggertest\\apiswaggertest\\postpettest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F918D84E-76FA-4B97-8930-D824E919E1D7}|ApiSwaggerTest\\ApiSwaggerTest.csproj|solutionrelative:apiswaggertest\\postpettest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "PostPetTest.cs",
               "DocumentMoniker": "D:\\VSProject\\APISwaggerTest\\ApiSwaggerTest\\PostPetTest.cs",
               "RelativeDocumentMoniker": "ApiSwaggerTest\\PostPetTest.cs",
@@ -49,14 +49,14 @@
               "RelativeDocumentMoniker": "ApiSwaggerTest\\GetPetIdTest.cs",
               "ToolTip": "D:\\VSProject\\APISwaggerTest\\ApiSwaggerTest\\GetPetIdTest.cs",
               "RelativeToolTip": "ApiSwaggerTest\\GetPetIdTest.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBEAAAAAAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwA0AAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-12T16:09:24.508Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "BaseHttpClient.cs",
               "DocumentMoniker": "D:\\VSProject\\APISwaggerTest\\BaseClient\\BaseHttpClient.cs",
               "RelativeDocumentMoniker": "BaseClient\\BaseHttpClient.cs",
@@ -69,7 +69,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "BaseTest.cs",
               "DocumentMoniker": "D:\\VSProject\\APISwaggerTest\\ApiSwaggerTest\\BaseTest.cs",
               "RelativeDocumentMoniker": "ApiSwaggerTest\\BaseTest.cs",
