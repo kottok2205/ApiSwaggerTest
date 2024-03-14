@@ -1,9 +1,4 @@
 ﻿using BaseClientService;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ApiSwaggerTest
 {
@@ -11,6 +6,8 @@ namespace ApiSwaggerTest
     {
         public static HttpClient Client => BaseHttpClient.GetInstance();
         public string baseUrl = "https://petstore.swagger.io/v2/";
+        protected string requestJson = File.ReadAllText(@"d:\VSProject\APISwaggerTest\ApiSwaggerTest\request.json");
+        protected string responseJson = File.ReadAllText(@"d:\VSProject\APISwaggerTest\ApiSwaggerTest\response.json");
 
         [SetUp]
         public void Setup()

@@ -10,8 +10,6 @@ namespace ApiSwaggerTest
         [Test]
         public async Task PostAPITest(string category)
         {
-            var requestJson = File.ReadAllText(@"d:\VSProject\APISwaggerTest\ApiSwaggerTest\request.json");
-            var responseJson = File.ReadAllText(@"d:\VSProject\APISwaggerTest\ApiSwaggerTest\response.json");
             var requestContent = new StringContent(requestJson, Encoding.UTF8, "application/json");
             var response = await Client.PostAsync(baseUrl + $"{category}", requestContent);
 
@@ -29,7 +27,6 @@ namespace ApiSwaggerTest
         public async Task GetAPITest(string category, string idCategory)
         {
             HttpResponseMessage response = await Client.GetAsync(baseUrl + $"{category}/{idCategory}");
-            var responseJson = File.ReadAllText(@"d:\VSProject\APISwaggerTest\ApiSwaggerTest\response.json");
 
             ClassicAssert.IsTrue(response.IsSuccessStatusCode);
 
