@@ -20,12 +20,16 @@ namespace ApiSwaggerTest
             var normalizedActual = Regex.Replace(responseContent, @"\s+", "");
 
             ClassicAssert.AreEqual(normalizedExpected, normalizedActual);
+
         }
 
         [TestCase("pet", "123456789")]
         [Test]
         public async Task GetAPITest(string category, string idCategory)
         {
+            Precondition precondition = new Precondition();
+            precondition.PreconditionTest(category);
+
             HttpResponseMessage response = await Client.GetAsync(baseUrl + $"{category}/{idCategory}");
 
             ClassicAssert.IsTrue(response.IsSuccessStatusCode);
