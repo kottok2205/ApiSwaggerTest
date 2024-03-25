@@ -2,12 +2,12 @@
 
 namespace ApiSwaggerTest
 {
-    public class BaseTest
+    public class BaseTest : ResourceManage
     {
         public static HttpClient Client => BaseHttpClient.GetInstance();
         public string baseUrl = "https://petstore.swagger.io/v2/";
-        protected string requestJson = File.ReadAllText(@"./Data/request.json");
-        protected string responseJson = File.ReadAllText(@"./Data/response.json");
+        protected static string RequestJson => GetResource("request.json");
+        protected static string ResponseJson => GetResource("response.json");
 
         [SetUp]
         public void Setup()

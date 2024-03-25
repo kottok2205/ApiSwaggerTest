@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Text;
 
 namespace ApiSwaggerTest
 {
@@ -10,7 +6,7 @@ namespace ApiSwaggerTest
     {
         public async Task<HttpResponseMessage> PreconditionTest(string category)
         {
-            var requestContent = new StringContent(requestJson, Encoding.UTF8, "application/json");
+            var requestContent = new StringContent(RequestJson, Encoding.UTF8, "application/json");
             var response = await Client.PostAsync(baseUrl + $"{category}", requestContent);
             return response;
         }
